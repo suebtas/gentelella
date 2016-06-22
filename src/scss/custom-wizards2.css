@@ -53,7 +53,7 @@ span.round-tab i{
 .wizard li.active span.round-tab {
     background: #fff;
     border: 2px solid #5bc0de;
-    
+
 }
 .wizard li.active span.round-tab i{
     color: #5bc0de;
@@ -181,10 +181,10 @@ span.round-tab:hover {
 }
 .unselect_img{
 	width:18px;
-	-webkit-user-select: none;  
-	-moz-user-select: none;     
-	-ms-user-select: none;      
-	user-select: none; 
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .active-header {
 	-moz-border-radius:5px 5px 0 0;

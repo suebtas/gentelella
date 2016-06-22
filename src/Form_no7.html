@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ระบบฐานข้อมูลสารสนเทศเพื่อสนับสนุนการบริหารจัดการของศูนย์เครือข่าย เพื่อแก้ไขปัญหาและส่งเสริมการมีส่วนร่วมในการพัฒนาท้องถิ่น </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--Select2-->
+    <link href="../vendors/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-trophy"></i> <span>Clinic Center</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">Dashboard</a></li>
+                      <li><a href="index2.html">Dashboard2</a></li>
+                      <li><a href="index3.html">Dashboard3</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-edit"></i>การสำรวจข้อมูลขั้นพื้นฐาน <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="Form_no1.html">1.ด้านสภาพทั่วไป</a></li>
+                      <li><a href="Form_no2.html">2.ด้านโครงสร้างพื้นฐาน</a></li>
+                      <li><a href="Form_no3.html">3.ด้านเศรษฐกิจ</a></li>
+                      <li><a href="Form_no4.html">4.ด้านสังคม</a></li>
+                      <li><a href="Form_no5.html">5.ด้านสาธารณสุข</a></li>
+                      <li><a href="Form_no6.html">6.ด้านคุณภาพชีวิตและความปลอดภัยในทรัพย์สิน</a></li>
+                      <li><a href="Form_no7.html">7.ด้านการป้องกันและบรรเทาสาธารณภัย</a></li>
+                      <li><a href="Form_no8.html">8.ด้านสิ่งแวดล้อมและทรัพยากรธรรมชาติ</a></li>
+                      <li><a href="Form_no9.html">9.ด้านการเมือง การบริหาร</a></li>
+
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav class="" role="navigation">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>เทศบาล xxxx</h3>
+              </div>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="หาคำถาม ...">
+                    <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">search !</button>
+                          </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="row">
+
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>ด้านการป้องกันและบรรเทาสาธารณภัย <small>ครั้งที่ 1/2558</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">การตั้งค่า 1</a>
+                          </li>
+                          <li><a href="#">การตั้งค่า 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+
+                    <!-- Smart Wizard -->
+                    <p>ส่วนพื้นที่แสดงข้อความอธิบายการกรอกข้อมูล</p>
+                    <div id="wizard" class="form_wizard wizard_horizontal">
+                      <ul class="wizard_steps">
+                        <li>
+                          <a href="#step-1">
+                            <span class="step_no">7.1</span>
+                            <span class="step_descr">สถิติเพลิงไหม้<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-2">
+                            <span class="step_no">7.2</span>
+                            <span class="step_descr">ความสูญเสียชีวิตและ<br>ทรัพย์สินจากสาเหตุเพลิงไหม้<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-3">
+                            <span class="step_no">7.3</span>
+                            <span class="step_descr">รถยนต์ดับเพลิง<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-4">
+                            <span class="step_no">7.4</span>
+                            <span class="step_descr">รถบรรทุกน้ำ<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-5">
+                            <span class="step_no">7.5</span>
+                            <span class="step_descr">รถกระเช้า<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-6">
+                            <span class="step_no">7.6</span>
+                            <span class="step_descr">รถบันได<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-7">
+                            <span class="step_no">7.7</span>
+                            <span class="step_descr">เรือยนต์ดับเพลิง<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-8">
+                            <span class="step_no">7.8</span>
+                            <span class="step_descr">เครื่องดับเพลิงชนิดหาบหาม<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-9">
+                            <span class="step_no">7.9</span>
+                            <span class="step_descr">พนักงานดับเพลิง<br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-10">
+                            <span class="step_no">7.10</span>
+                            <span class="step_descr">อาสาสมัครป้องกัน<br>และบรรเทาสาธารณภัย <br />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-11">
+                            <span class="step_no">7.11</span>
+                            <span class="step_descr">ผู้ฝึกซ้อมบรรเทาสาธารณภัย<br />
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <div id="step-1">
+                        <form class="form-horizontal form-label-left">
+                          <div class="form-group">
+                            <center>
+                            <h2>สถิติเพลิงไหม้ในรอบปี (1 ม.ค. - 31 ธ.ค.) จำนวน <input type="text" class="input-sm" name="name" value="0"> บาท ครั้ง</h2>
+                            <input type="button" name="name" class="btn btn-info" value="update">
+                            </center><br>
+                            <table id="road" class="table" style="clear: both">
+                              <tbody>
+                                <thead>
+                                  <th width="50%">
+                                    ปี
+                                  </th>
+                                  <th>
+                                    จำนวนครั้งที่เกิดไฟไหม้
+                                  </th>
+                                </thead>
+                                <tr>
+                                <td>
+                                  2557
+                                </td>
+                                <td>
+                                  0
+                                </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    2558
+                                  </td>
+                                  <td>
+                                    1
+                                  </td>
+                                </tr>
+
+                              </tbody>
+                            </table>
+                      </div>
+                        </form>
+                      </div>
+
+                      <div id="step-2">
+                        <form class="form-horizontal form-label-left">
+
+                          <div class="form-group">
+                            <h2>ความสูญเสียชีวิตและทรัพย์สินจากสาเหตุเพลิงไหม้ในรอบปีที่ผ่านมา (2558)</h2>
+                          <table class="table">
+                            <tr>
+                              <td width="40%">
+                                ผู้เสียชีวิต
+                              </td>
+                              <td width="10%">
+                                <a href="#">0</a>
+                              </td>
+                              <td>
+                                <center>คน</center>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="40%">
+                                บาดเจ็บ
+                              </td>
+                              <td width="10%">
+                                <a href="#">0</a>
+                              </td>
+                              <td>
+                                <center>คน</center>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="40%">
+                                ทรัพย์สินมูลค่า
+                              </td>
+                              <td width="10%">
+                                <a href="#">0</a>
+                              </td>
+                              <td>
+                                <center>บาท</center>
+                              </td>
+                            </tr>
+                          </table>
+
+                          <table class="table table-striped table-bordered" style="clear: both">
+                            <tbody>
+                              <thead>
+                                <th>
+                                  ปี
+                                </th>
+                                <th>
+                                  คิดเป็นผู้เสียชีวิต (คน)
+                                </th>
+                                <th>
+                                  บาดเจ็บ (คน)
+                                </th>
+                                <th>
+                                  ทรัพย์สินมูลค่า (บาท)
+                                </th>
+                              </thead>
+                                <tr>
+                                    <td>2557</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>
+                                      0
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      2558
+                                    </td>
+                                    <td>
+                                      0
+                                    </td>
+                                    <td>
+                                      0
+                                    </td>
+                                    <td>
+                                      0
+                                    </td>
+                                  </tr>
+                            </tbody>
+                          </table>
+                      </div>
+                      </form>
+                    </div>
+                      <div id="step-3">
+                        <form class="form-horizontal form-label-left">
+                          <div class="form-group">
+                            รถยนต์ดับเพลิง (แยกตามขนาดบรรจุน้ำ) จำนวน <a href="#">1</a> คัน
+                          </div>
+                          <table class="table">
+                            <tbody>
+                              <thead>
+                                <th>
+                                  คันที่
+                                </th>
+                                <th>
+                                  จุน้ำได้ (ลบ.ม.)
+                                </th>
+                                <th>
+                                  ที่มา
+                                </th>
+                                <th>
+                                  ได้มาเมื่อ พ.ศ. (ถ้าซื้อมา)
+                                </th>
+                              </thead>
+                              <tr>
+                                <td>
+                                  1
+                                </td>
+                                <td>
+                                  10.00
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                  0.00
+                                </td>
+                              </tr>
+                              <tr>
+                              <td>
+                                2
+                              </td>
+                              <td>
+                                0.00
+                              </td>
+                              <td>
+
+                              </td>
+                              <td>
+                                0.00
+                              </td>
+                            </tr>
+                            </tbody>
+                          </table>
+                        </form>
+                      </div>
+                      <div id="step-4">
+                        <form class="form-horizontal form-label-left">
+
+                          <div class="form-group">
+                          <table class="table">
+                            <tr>
+                              <td width="50%">
+                                โรงแรม
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="1" class="form-control">
+                              </td>
+                              <td>
+                                แห่ง
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="50%">
+                                ธนาคาร
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="0" class="form-control">
+                              </td>
+                              <td>
+                                แห่ง
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="50%">
+                                โรงภาพยนตร์
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="0" class="form-control">
+                              </td>
+                              <td>
+                                แห่ง
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="50%">
+                                สถานที่จำหน่ายอาหาร ตาม พ.ร.บ. สาธารณสุข
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="0" class="form-control">
+                              </td>
+                              <td>
+                                แห่ง
+                              </td>
+                            </tr>
+                          </table>
+
+                          </div>
+
+                        </form>
+                      </div>
+
+
+                      <div id="step-5">
+
+                        <form class="form-horizontal form-label-left">
+
+                          <div class="form-group">
+                          <table class="table">
+                            <tr>
+                              <td width="50%">
+                                แหล่งท่องเที่ยว จำนวน
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="2" class="form-control">
+                              </td>
+                              <td>
+                                แห่ง
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="50%">
+                                นักท่องเที่ยว จำนวน
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="0" class="form-control">
+                              </td>
+                              <td>
+                                คน/ปี
+                              </td>
+                            </tr>
+                            <tr>
+                              <td width="50%">
+                                รายได้จากการท่องเที่ยว จำนวน
+                              </td>
+                              <td width="10%">
+                                <input type="text" name="name" value="0.00" class="form-control">
+                              </td>
+                              <td>
+                                บาท/ปี
+                              </td>
+                            </tr>
+                          </table>
+
+                          </div>
+
+                        </form>
+                    </div>
+                    <!-- End SmartWizard Content -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- jQuery Smart Wizard -->
+    <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+
+    <!-- bootstrap3-editable -->
+    <link href="../vendors/x-editable/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+    <script src="../vendors/x-editable/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    <!-- Select2 -->
+    <script src="../vendors/select2/dist/js/select2.full.min.js"></script>
+    <!-- jQuery Smart Wizard -->
+    <script>
+      $(document).ready(function() {
+        $('#wizard').smartWizard({
+          transitionEffect: 'slide'
+        });
+
+        $('#wizard_verticle').smartWizard({
+          transitionEffect: 'slide'
+        });
+
+        $('.buttonNext').addClass('btn btn-success');
+        $('.buttonPrevious').addClass('btn btn-primary');
+        $('.buttonFinish').addClass('btn btn-default');
+      });
+    </script>
+    <!-- /jQuery Smart Wizard -->
+
+    <!-- Select2 -->
+    <script>
+      $(document).ready(function() {
+        $(".select2_single").select2({
+          placeholder: "Select a state",
+          allowClear: true
+        });
+        $(".select2_group").select2({});
+        $(".select2_multiple").select2({
+          maximumSelectionLength: 4,
+          placeholder: "With Max Selection limit 4",
+          allowClear: true
+        });
+      });
+    </script>
+    <!-- /Select2 -->
+    <script>
+    $.fn.editable.defaults.mode = 'inline';
+    $('#r1').editable({
+           url: 'Form_No2.html',
+           type: 'text',
+           pk: 1,
+           name: 'road',
+           title: 'จำนวนสายถนนลูกรัง'
+    });
+    </script>
+
+  </body>
+</html>
