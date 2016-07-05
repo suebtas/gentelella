@@ -3592,14 +3592,15 @@ fieldset {
   max-width: 100%; }
 
 /** /Cropper **/
-/** jQuery Smart Wizard  **/
+/** jQuery Smart Wizard
 .form_wizard .stepContainer {
   display: block;
   position: relative;
   margin: 0;
   padding: 0;
   border: 0 solid #CCC;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}**/
 
 .wizard_horizontal ul.wizard_steps {
   display: table;
